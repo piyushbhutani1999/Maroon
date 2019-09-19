@@ -22,3 +22,4 @@ maroon-frontend/.env.production.local
 maroon-frontend/npm-debug.log*
 maroon-frontend/yarn-debug.log*
 maroon-frontend/yarn-error.log*
+db.sqlite3
