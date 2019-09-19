@@ -1,0 +1,24 @@
+.vscode/
+*/*/__pycache__/
+*/__pycache__/
+
+maroon-frontend/node_modules
+maroon-frontend/.pnp
+maroon-frontend/.pnp.js
+
+# testing
+maroon-frontend/coverage
+
+# production
+maroon-frontend/build
+
+# misc
+maroon-frontend/.DS_Store
+maroon-frontend/.env.local
+maroon-frontend/.env.development.local
+maroon-frontend/.env.test.local
+maroon-frontend/.env.production.local
+
+maroon-frontend/npm-debug.log*
+maroon-frontend/yarn-debug.log*
+maroon-frontend/yarn-error.log*
