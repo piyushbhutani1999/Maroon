@@ -35,6 +35,10 @@ You must npm and node js installed on your system
 For frontend we have to install react js::
 
     $ cd frontend
-    $ npm install 
+    $ npm install
+    
+To start our react app::
+
+    $ npm start
     
 
