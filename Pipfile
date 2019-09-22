@@ -11,6 +11,8 @@ djangorestframework = "*"
 django-cors-headers = "*"
 pillow = "*"
 pylint = "*"
+docutils = "*"
+doc8 = "*"
 
 [requires]
 python_version = "3.7"
