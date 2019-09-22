@@ -11,19 +11,24 @@ Installation
 First clone git repository
 
 clone with ssh::
+
     $ git clone git@github.com:piyushbhutani1999/Maroon.git
 
 clone with https::
+
     $ git clone https://github.com/piyushbhutani1999/Maroon.git
 
 First we'll create environment for python develpoment using pipenv package::
+
     $ pip3 install pipenv
 
 then in cloned repository::
+
     $ pipenv shell
     $ pipenv install
 
 run python server::
+
     $ python manage.py runserver
     
 
