@@ -2,7 +2,10 @@
   "name": "maroon-frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8000/",
   "dependencies": {
+    "axiom": "^0.1.6",
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
