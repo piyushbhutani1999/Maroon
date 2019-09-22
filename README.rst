@@ -31,4 +31,10 @@ run python server::
 
     $ python manage.py runserver
     
+You must npm and node js installed on your system
+For frontend we have to install react js::
+
+    $ cd frontend
+    $ npm install 
+    
 
