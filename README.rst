@@ -30,6 +30,8 @@ then in cloned repository::
 run python server::
 
     $ python manage.py runserver
+   
+Then visit http://localhost:8000/
     
 You must npm and node js installed on your system
 For frontend we have to install react js::
@@ -40,5 +42,7 @@ For frontend we have to install react js::
 To start our react app::
 
     $ npm start
+    
+Our app is served at https://localhost:3000/
     
 
