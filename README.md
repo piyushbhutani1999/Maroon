@@ -30,40 +30,31 @@ How to install react js
 
 * [Steps to install packages](https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1)
 
-First clone git repository
+##Installing
 
-clone with https
+* First clone git repository
 
 ```
     $ git clone https://github.com/piyushbhutani1999/Maroon.git
 ```
 
-First we'll create environment for python develpoment using pipenv package::
+* then we'll create environment for python develpoment using pipenv package::
+  * install pipenv 
+  ```
+      pip3 install pipenv 
+  ```
+  
+  * then in cloned repository start python environment
+  ```
+      $ pipenv shell
+      $ pipenv install
+  ```
 
-```
-    $ pip3 install pipenv
-```
-then in cloned repository::
-```
-    $ pipenv shell
-    $ pipenv install
-```
-run python server::
+* run python server::
 ```
     $ python manage.py runserver
 ```
 Then visit `http://localhost:8000/`
     
-You must npm and node js installed on your system
-For frontend we have to install react js::
-```
-    $ cd frontend
-    $ npm install
-```    
-To start our react app::
-```
-    $ npm start
-```    
-Our app is served at `https://localhost:3000/`
-    
+**Happy Coding**
 
