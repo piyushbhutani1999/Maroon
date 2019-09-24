@@ -9,10 +9,11 @@ These instruction will get you a copy of the project up and running on your loca
 
 ### Prerequisties
 
-All instructuions are for ubuntu Sorry Windows : )
+**All instructuions are for ubuntu Sorry Windows : )**
 
 Following packages need to be installed
 
+```
 Python 3
 
 python 3 pip 
@@ -22,45 +23,49 @@ node js
 npm
 
 create-react-app
+```
 
 How to install react js
 
-* [Steps to install packages] (https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1)
+* [Steps to install packages](https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1)
 
-First clone git repository
+## Installing
 
-clone with https
-
-```
-    $ git clone https://github.com/piyushbhutani1999/Maroon.git
-```
-
-First we'll create environment for python develpoment using pipenv package::
+* First clone git repository
 
 ```
-    $ pip3 install pipenv
+$ git clone https://github.com/piyushbhutani1999/Maroon.git
 ```
-then in cloned repository::
+
+* then we'll create environment for python develpoment using pipenv package::
+  * install pipenv 
+  ```
+  pip3 install pipenv 
+  ```
+  
+  * then in cloned repository start python environment
+  ```
+  $ pipenv shell
+  $ pipenv install
+  ```
+
+* run python server::
 ```
-    $ pipenv shell
-    $ pipenv install
-```
-run python server::
-```
-    $ python manage.py runserver
+$ python manage.py runserver
 ```
 Then visit `http://localhost:8000/`
-    
-You must npm and node js installed on your system
-For frontend we have to install react js::
+
+**You must npm and node js installed on your system**
+* For frontend we have to install react js::
 ```
-    $ cd frontend
-    $ npm install
+$ cd frontend
+$ npm install
 ```    
-To start our react app::
+* start our react app::
 ```
-    $ npm start
+$ npm start
 ```    
 Our app is served at `https://localhost:3000/`
-    
+      
+**Happy Coding**
 
