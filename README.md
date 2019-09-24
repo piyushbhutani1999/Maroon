@@ -9,9 +9,11 @@ These instruction will get you a copy of the project up and running on your loca
 
 ### Prerequisties
 
-All instructuions are for ubuntu Sorry Windows : )
+**All instructuions are for ubuntu Sorry Windows : )**
 
 Following packages need to be installed
+
+```
 
 Python 3
 
@@ -22,10 +24,11 @@ node js
 npm
 
 create-react-app
+```
 
 How to install react js
 
-* [Steps to install packages] (https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1)
+* [Steps to install packages](https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1)
 
 First clone git repository
 
