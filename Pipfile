@@ -13,6 +13,7 @@ pillow = "*"
 pylint = "*"
 docutils = "*"
 doc8 = "*"
+djangorestframework-jwt = "*"
 
 [requires]
 python_version = "3.7"
