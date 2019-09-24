@@ -14,7 +14,6 @@ These instruction will get you a copy of the project up and running on your loca
 Following packages need to be installed
 
 ```
-
 Python 3
 
 python 3 pip 
@@ -30,7 +29,7 @@ How to install react js
 
 * [Steps to install packages](https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1)
 
-##Installing
+## Installing
 
 * First clone git repository
 
